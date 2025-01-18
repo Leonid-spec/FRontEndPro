@@ -1,6 +1,5 @@
 import MyButton from "../../components/myButton/MyButton";
 
-
 function Lesson02() {
   const element = <h4>Это JSX элемент из переменной element!</h4>;
   const text = "это строка из переменной text..";
@@ -52,9 +51,9 @@ function Lesson02() {
         <h4>To see image you need to authorize!</h4>
       )}
       <div>
-        <MyButton/>
-        <MyButton/>
-        <MyButton/>
+        <MyButton />
+        <MyButton />
+        <MyButton />
       </div>
     </div>
   );
