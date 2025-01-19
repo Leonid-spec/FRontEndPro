@@ -7,7 +7,7 @@ function Homework_01() {
       <img
         src="https://cs14.pikabu.ru/post_img/2024/03/26/8/1711458053158360954.webp"
         alt="my name is Cap!"
-        style="width:100%"
+      
       />
 
       <h2>My name is Capitan Fatterika </h2>
