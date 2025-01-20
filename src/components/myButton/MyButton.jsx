@@ -1,7 +1,11 @@
-import'./myButton.css';
+import "./myButton.css";
 
 function MyButton() {
-    return <button className="myButton">Click me!</button>;
+  return (
+    <button className="myButton">
+      text
+    </button>
+  );
 }
 
 export default MyButton;
