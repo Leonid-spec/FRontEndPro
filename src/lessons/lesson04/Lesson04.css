@@ -1,0 +1,9 @@
+.counter > span {
+    margin: 0 8px 0;
+    color: blue;
+    
+}
+
+.counter > button {
+    color:brown
+}

@@ -4,6 +4,7 @@ import Button from "../components/homeButton/HomeButton";
 const HomeWork03 = () => {
     const handleClick1 = () => {
         console.log('Button 1 clicked');
+        alert('Button 1 clicked');
     };
     const handleClick2 = () => {
         console.log('Button 2 clicked');
