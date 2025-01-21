@@ -7,12 +7,13 @@ import React from "react";
 // import HomeWork03 from "./homeWork03/HomeWork03";
 // import Lesson04 from "./lessons/lesson04/Lesson04";
 // import FeedBack from "./homeWork04/FeedBack";
-import Voting from "./voting/voting";
+// import Voting from "./voting/voting";
+import TodoList from "./todoList/TodoList";
 // import HomeWork_02 from "./homework_02/Homework_02";
 function App() {
   return (
     <>
-      <Voting />
+      <TodoList />
     </>
   );
 }
