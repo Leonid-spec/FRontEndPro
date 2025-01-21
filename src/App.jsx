@@ -5,14 +5,14 @@ import React from "react";
 // import Lesson02 from "./lessons/lesson_02/Lesson_02";
 // import Lesson03 from "./lessons/lesson03/Lesson03";
 // import HomeWork03 from "./homeWork03/HomeWork03";
-import Lesson04 from "./lessons/lesson04/Lesson04";
-import FeedBack from "./homeWork04/FeedBack";
+// import Lesson04 from "./lessons/lesson04/Lesson04";
+// import FeedBack from "./homeWork04/FeedBack";
+import Voting from "./voting/voting";
 // import HomeWork_02 from "./homework_02/Homework_02";
 function App() {
   return (
     <>
-    
-      <FeedBack/>
+      <Voting />
     </>
   );
 }

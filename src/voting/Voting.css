@@ -1,0 +1,52 @@
+.voting-container {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .voting-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .vote-for {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .vote-for:hover {
+    background-color: #45a049;
+  }
+  
+  .vote-against {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .vote-against:hover {
+    background-color: #e53935;
+  }
+  
+  .reset {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .reset:hover {
+    background-color: #fb8c00;
+  }
+  
+  .total-votes {
+    margin: 10px 0;
+    font-size: 18px;
+  }
