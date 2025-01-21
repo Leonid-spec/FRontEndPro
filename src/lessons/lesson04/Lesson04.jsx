@@ -21,6 +21,11 @@ export default function Lesson04() {
   const handleMinus = () => {
     setCount((prev) => prev - 1);
   };
+  let [isSwitched, setIsSwitched] = useState(false);
+
+  const handleSwitch = () => {
+    setIsSwitched((prev) => !prev);
+  };
 
   return (
     <div>
@@ -29,6 +34,11 @@ export default function Lesson04() {
         <button onClick={handleMinus}>-</button>
         <span>{count}</span>
         <button onClick={handlePlus}>+</button>
+        <div>
+          <button className="switch" onClick={handleSwitch}>
+            {isSwitched ? "Day " : "Night "}
+          </button>
+        </div>
       </div>
     </div>
   );
