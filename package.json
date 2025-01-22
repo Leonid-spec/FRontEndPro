@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "lazy": "git add . && git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\" && git push origin main",
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {

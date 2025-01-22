@@ -8,12 +8,13 @@ import React from "react";
 // import Lesson04 from "./lessons/lesson04/Lesson04";
 // import FeedBack from "./homeWork04/FeedBack";
 // import Voting from "./voting/voting";
-import TodoList from "./todoList/TodoList";
+// import TodoList from "./todoList/TodoList";
 // import HomeWork_02 from "./homework_02/Homework_02";
+import Lesson05 from "./lesson05/Lesson05";
 function App() {
   return (
     <>
-      <TodoList />
+      <Lesson05 />
     </>
   );
 }
